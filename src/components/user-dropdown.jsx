@@ -16,10 +16,7 @@ import Link from "next/link";
 export function UserDropdown({ user }) {
   return (
     <div className="flex items-center gap-4">
-      <Button variant="outline" className="bg-primary text-white hover:bg-primary/90">
-        <BookOpen className="mr-2 h-4 w-4" />
-        Сургалт Нэмэх
-      </Button>
+    
       
       <DropdownMenu>
         <DropdownMenuTrigger asChild>

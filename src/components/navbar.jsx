@@ -12,7 +12,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
-import { Search, Heart, ShoppingBag } from "lucide-react";
+import { Search, Heart, ShoppingBag, PlusCircle } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 import {
   Command,
@@ -295,6 +295,13 @@ export function Navbar() {
           </NavigationMenuList>
         </NavigationMenu>
         <div className="ml-auto flex items-center space-x-4 pr-16">
+          {/* Replace any existing Add Course Button with this one */}
+          <Button variant="outline" size="sm" asChild className="flex items-center gap-2">
+            <Link href="/dashboard">
+              <PlusCircle className="h-4 w-4" />
+              <span>Сургалт нэмэх</span>
+            </Link>
+          </Button>
           <Button variant="ghost" size="icon" asChild>
             <Link href="/favorites" className="flex items-center gap-2">
               <Heart className="h-5 w-5" />
@@ -366,4 +373,4 @@ const ListItem = React.forwardRef(({ className, title, children, ...props }, ref
       </NavigationMenuLink>
     </li>
   )
-}) 
+})

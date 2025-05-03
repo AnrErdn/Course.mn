@@ -30,7 +30,7 @@ export default function Home() {
             <h1 className="hero-title text-4xl md:text-6xl font-bold tracking-tight text-gray-900">
               Программчлал, дизайн болон бусад ур чадваруудыг
               <br />
-              <span className="text-primary">EduTech-ээр суралцаарай</span>
+              <span className="text-primary">Course.mn-ээр суралцаарай</span>
             </h1>
             
             <p className="hero-description text-xl text-gray-600 max-w-2xl">
@@ -40,7 +40,7 @@ export default function Home() {
 
             <div className="hero-buttons flex flex-col sm:flex-row gap-4 pt-4">
               <Button size="lg" className="text-lg px-8 group" asChild>
-                <Link href="/courses">
+                <Link href="/categories/edtech">
                   Суралцаж эхлэх
                   <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                 </Link>

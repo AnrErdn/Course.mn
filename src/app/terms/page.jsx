@@ -14,7 +14,7 @@ export default function TermsOfService() {
             <section>
               <h2 className="text-xl font-semibold mb-4">1. Ерөнхий нөхцөл</h2>
               <p className="text-gray-600">
-                Энэхүү нөхцөл нь EdTech платформыг ашиглахтай холбоотой бүх үйл ажиллагаанд хамаарна.
+                Энэхүү нөхцөл нь Course.mn платформыг ашиглахтай холбоотой бүх үйл ажиллагаанд хамаарна.
                 Платформыг ашиглах замаар та эдгээр нөхцөлийг хүлээн зөвшөөрсөн гэж үзнэ.
               </p>
             </section>
@@ -73,7 +73,7 @@ export default function TermsOfService() {
                 Үйлчилгээний нөхцөлтэй холбоотой асуулт, санал хүсэлтээ дараах хаягаар илгээнэ үү:
               </p>
               <p className="mt-2 text-gray-600">
-                Имэйл: legal@edtech.mn
+                Имэйл: legal@Course.mn.mn
               </p>
             </section>
           </div>
